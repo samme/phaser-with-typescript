@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "outDir": "public",
+    "skipLibCheck": true,
+    "target": "es5"
+  },
+  "files": ["node_modules/phaser3-docs/typescript/phaser.d.ts"],
+  "include": ["src/**/*"]
+}

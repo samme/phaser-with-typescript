@@ -1,0 +1,33 @@
+{
+  "name": "phaser-with-typescript",
+  "version": "1.0.0",
+  "description": "Minimal Phaser with TypeScript project",
+  "main": "index.html",
+  "scripts": {
+    "test": "tsc --noEmit",
+    "start": "tsc --watch",
+    "build": "tsc",
+    "postinstall": "cp -v ./node_modules/phaser/dist/* ./public/phaser"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samme/phaser-with-typescript.git"
+  },
+  "keywords": [
+    "phaser",
+    "phaser3"
+  ],
+  "author": "samme (https://github.com/samme)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samme/phaser-with-typescript/issues"
+  },
+  "homepage": "https://github.com/samme/phaser-with-typescript#readme",
+  "devDependencies": {
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "phaser": "^3.11.0",
+    "phaser3-docs": "github:photonstorm/phaser3-docs"
+  }
+}
